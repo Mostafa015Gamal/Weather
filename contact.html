@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="icon" href="img/Weather-Icons-modified.png" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary mx-auto mb-5 py-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <div class="logo d-flex align-items-center">
+            <div>
+              <img src="./img/logo.png" width="70" alt="logo" />
+            </div>
+            <p class="m-0 ps-2 fs-3 text-white text-capitalize">Weather</p>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars text-white"></i>
+        </button>
+        <div class="collapse navbar-collapse mt-3" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item border-color">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item border-color">
+              <a class="nav-link text-white" href="#">News</a>
+            </li>
+            <li class="nav-item border-color">
+              <a class="nav-link text-white" href="#">Live cameras </a>
+            </li>
+            <li class="nav-item border-color">
+              <a class="nav-link text-white" href="#">Photos </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="section" class="my-5">
+      <div
+        class="container d-flex align-items-center gap-3 bg-black py-3 ps-4 rounded-5"
+      >
+        <a
+          href="index.html"
+          class="text-decoration-none text-white text-capitalize"
+          >Home</a
+        >
+        <div class="imgs">
+          <img src="img/arrow-gray.png" alt="" />
+        </div>
+        <p class="text-capitalize text-white m-0">Contact</p>
+      </div>
+      <div class="container text-white-50 mt-5">
+        <div class="row w-100 gap-5">
+          <div class="col-sm-12 col-lg-4 bg-black ps-4 py-4 rounded-5 h-50">
+            <div class="d-flex align-items-center gap-3 mt-2">
+              <i class="fa-solid fa-location-dot text-white fs-4"></i>
+              <p class="m-0">
+                Company Name INC. 2803 Avenue Street, Los Angeles
+              </p>
+            </div>
+            <div class="d-flex align-items-center gap-3 my-4">
+              <i class="fa-solid fa-phone text-white fs-4"></i>
+              <a
+                href="contact.html"
+                class="text-decoration-none text-white-50 text-capitalize"
+                >+1 800 314 235</a
+              >
+            </div>
+            <div class="d-flex align-items-center gap-4 mb-2">
+              <i class="fa-solid fa-envelope text-white fs-5"></i>
+              <a
+                href="contact.html"
+                class="text-decoration-none text-white-50 text-capitalize"
+                >contact@companyname.com</a
+              >
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-7 text-white">
+            <h2 class="text-capitalize mb-3">contact us</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              qui, quis nulla beatae sit, ducimus ab maiores, reprehenderit
+              libero non deleniti neque maxime dolor? Cumque!
+            </p>
+            <form>
+              <div class="row">
+                <div class="col-sm-12 col-lg-6 mt-sm-2 pe-lg-1">
+                  <input
+                    type="text"
+                    name="Name"
+                    placeholder="Your Name"
+                    class="p-3 rounded-5 inputs w-100 text-white"
+                  />
+                </div>
+                <div class="col-sm-12 col-lg-6 mt-sm-2 ps-lg-1">
+                  <input
+                    type="email"
+                    name="Email"
+                    placeholder="Email Address"
+                    class="p-3 rounded-5 inputs w-100 text-white"
+                  />
+                </div>
+              </div>
+              <div class="row mt-lg-2">
+                <div class="col-sm-12 col-lg-6 mt-sm-2 pe-lg-1">
+                  <input
+                    type="text"
+                    name="Name"
+                    placeholder="Company name"
+                    class="p-3 rounded-5 inputs w-100 text-white"
+                  />
+                </div>
+                <div class="col-sm-12 col-lg-6 mt-sm-2 ps-lg-1">
+                  <input
+                    type="email"
+                    name="Email"
+                    placeholder="Website"
+                    class="p-3 rounded-5 inputs w-100 text-white"
+                  />
+                </div>
+              </div>
+              <div class="col-sm-12 mt-2">
+                <textarea
+                  name="Massage"
+                  placeholder="Massage..."
+                  class="p-3 rounded-5 inputs w-100 text-white"
+                ></textarea>
+              </div>
+              <div class="d-flex justify-content-end">
+                <button class="btn mt-2 px-4 py-2 rounded-5">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container pt-4">
+        <div class="row">
+          <div class="col-md-12 col-lg-8">
+            <div class="w-100 rounded-5 position-relative" id="divInput">
+              <input
+                type="text"
+                name="Email To Subscribe"
+                placeholder="Enter your email to subscribe..."
+                class="border-0 w-100 ms-lg-4 input-footer py-3 px-5 bg-black rounded-5 text-white"
+              />
+              <a href="#" class="text-black position-absolute p-0"
+                ><button class="btn search rounded-5">Subscribe</button></a
+              >
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-4 mt-lg-1 mt-sm-4 div-icons">
+            <div
+              class="icons d-flex justify-content-center align-items-center gap-1"
+            >
+              <a href="#" class="text-decoration-none">
+                <div class="icon d-grid">
+                  <i class="fa-brands fa-facebook-f text-white m-auto fs-5"></i>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none">
+                <div class="icon d-grid">
+                  <i class="fa-brands fa-twitter text-white m-auto fs-5"></i>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none">
+                <div class="icon d-grid">
+                  <i class="fa-brands fa-google text-white m-auto fs-5"></i>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none">
+                <div class="icon d-grid">
+                  <i class="fa-brands fa-pinterest text-white m-auto fs-5"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="d-flex justify-content-center align-items-center link-linkedIn"
+      >
+        <a
+          href="https://www.linkedin.com/in/mostafa-gamal-545134304/"
+          target="_blank"
+          class="text-decoration-none my-4"
+          >This Page Made 💛 By Mostafa Gamal</a
+        >
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
